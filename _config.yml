@@ -1,0 +1,17 @@
+# Site settings
+title: CoderFaire
+email: organizers@coderfaire.com
+description: >
+  Two great days of creating and connecting. One unforgettable event.
+baseurl: ""
+url: "http://coderfaire.github.io"
+twitter_username: CoderFaire
+github_username:  CoderFaire
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - 'README.md'
