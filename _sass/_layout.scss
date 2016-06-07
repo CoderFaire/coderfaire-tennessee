@@ -17,9 +17,12 @@
 
 .flex-item {
     text-align: center;
-}
 
-img {
-    -webkit-filter: drop-shadow(3px 3px 4px white) drop-shadow(-3px -3px 4px white) drop-shadow(-3px 3px 4px white) drop-shadow(3px -3px 4px white);
-    filter: drop-shadow(3px 3px 4px white) drop-shadow(-3px -3px 4px white) drop-shadow(-3px 3px 4px white) drop-shadow(3px -3px 4px white);
+    img {
+        width: 600px;
+
+        @media (max-width: 600px) {
+            width: 100%;
+        }
+    }
 }
