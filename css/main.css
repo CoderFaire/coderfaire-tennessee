@@ -286,6 +286,13 @@ body.loading .loading-modal {
 .site-name img {
     max-height: 80px;
 }
+.site-name .date {
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
 @media (min-width: 768px) {
     .site-title {
         padding-left: 0;
@@ -803,6 +810,13 @@ label {
     .overlay, .step .vertical-align-container {
         background: rgba(0,0,0,0.25);
     }
+}
+
+.register-button {
+    font-size: 30px;
+    margin: 20px 0px;
+    padding: 10px;
+    background: rgba(160,80,120,1) !important;
 }
 
 /*--------------------------------------------------------------
