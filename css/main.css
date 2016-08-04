@@ -286,6 +286,13 @@ body.loading .loading-modal {
 .site-name img {
     max-height: 80px;
 }
+.site-name {
+    text-align: center;
+}
+.body-text {
+    width: 80%;
+    margin: 0px auto;
+}
 .site-name .date {
     font-size: 18px;
     line-height: 26px;
